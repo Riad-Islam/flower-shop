@@ -119,3 +119,30 @@ button{
     text-align: center;
 
 }
+
+/* Hot deal */
+.hot-deal{
+    height: 270px;
+    width: 100%;
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 280px;
+    margin-top: 60px;
+}
+.deal-text{
+    width: 300px;
+    text-align: center;
+}
+.deal-text p{
+    font-size: 10px;
+}
+.deal-text h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+.deal-picture img{
+    height: 200px;
+    width: 180px;
+}
