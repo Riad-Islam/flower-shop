@@ -5,6 +5,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    /* background: #FFF; */
 }
 
 .main_div{
@@ -145,4 +146,69 @@ button{
 .deal-picture img{
     height: 200px;
     width: 180px;
+}
+#deal-button:hover{
+    background-color: black;
+    color: white;
+}
+
+/* Intra section */
+.insta-section{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   margin-top: 70px;
+
+}
+.istra{
+    width: 300px;
+    font-size: 20px;
+}
+.istra p{
+    font-size: 10px;
+    margin-top: 10px;
+    color: rgba(39, 39, 39, 0.60);
+}
+.instagram-image{
+    width: 900px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.insta-img{
+    width: 210px;
+    height:230px ;
+}
+.latest-deal{
+    width: 900px;
+    background-image: url("Rectangle\ 9.png");
+    background-size: cover;
+    height: 210px;
+    margin-top:70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.latest-deal h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+.latest-deal p{
+    font-size: 10px;
+    color: rgba(39, 39, 39, 0.60);
+}
+.latest-deal input{
+    width: 370px;
+    height: 30px;
+    background: #FFF;
+    border: none;
+    border-radius: 3px;
+}
+.latest-deal button{
+    height:30px ;
+    border-radius: 3px;
+    font-size: 10px;
+    margin-left: 5px;
 }
